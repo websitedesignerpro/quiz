@@ -1,0 +1,65 @@
+/* style.css */
+body {
+    background-color: #f8f9fa;
+}
+.navbar {
+    height: 80px !important;
+    background-color: #fff !important;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.login > span {
+    font-size: 16px;
+    cursor: pointer;
+    color: #0d6db7;
+}
+
+.main-section {
+    background-color: #e9ecef;
+    padding: 30px 0 50px;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.mt-5{
+    margin-top: 3rem !important;
+
+}
+.main-heading {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #007bff;
+}
+
+.question {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
